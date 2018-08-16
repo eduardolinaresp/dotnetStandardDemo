@@ -10,9 +10,10 @@ namespace DemoConsoleDotnetEF
 {
     class Program
     {
+
+
         static void Main(string[] args)
         {
-  
 
             try
             {
@@ -20,11 +21,14 @@ namespace DemoConsoleDotnetEF
 
                 Order Orden = _OrderService.Read(1);
 
+                String mensaje = "Contiene los siguientes items:";
+
                 Console.WriteLine("La OrdenId: {0} con Fecha: {1}", Orden.OrderId.ToString(), Orden.Fecha.ToString());
+                Console.WriteLine(mensaje);
 
                 foreach (var item in Orden.OrdersDetails)
                 {
-                    Console.WriteLine("Contiene los siguientes items: {0}", item.ItemName);
+                    Console.WriteLine(item.ItemName.PadLeft(mensaje.Length + item.ItemName.Length, '.'));
                 }
 
 
