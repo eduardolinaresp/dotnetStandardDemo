@@ -12,7 +12,9 @@ namespace DemoConsoleDotnetEF.Models
     public class DemoConsoleDotnetEFContext : DbContext
     {
 
-        public DemoConsoleDotnetEFContext() : base("name=DemoConsoleDotnetEF")
+        public DemoConsoleDotnetEFContext() : 
+                                            base("name=OracleDbContext")
+                                        //    base("name=DemoConsoleDotnetEF")
         {
 
             this.Configuration.AutoDetectChangesEnabled = false;
@@ -27,7 +29,7 @@ namespace DemoConsoleDotnetEF.Models
             
             modelBuilder.Configurations.Add(new OrderConfiguration());
             modelBuilder.Configurations.Add(new OrderDetailConfiguration());
-
+            modelBuilder.HasDefaultSchema("APP");
             base.OnModelCreating(modelBuilder);
         }
 

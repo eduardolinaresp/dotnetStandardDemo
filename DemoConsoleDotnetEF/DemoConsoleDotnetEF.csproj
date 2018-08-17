@@ -41,6 +41,12 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.12.2.1100\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess.EntityFramework, Version=6.122.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.EntityFramework.12.2.1100\lib\net45\Oracle.ManagedDataAccess.EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -54,9 +60,9 @@
   <ItemGroup>
     <Compile Include="Configurations\OrderConfiguration.cs" />
     <Compile Include="Configurations\OrderDetailConfiguration.cs" />
-    <Compile Include="Migrations\201808150302244_InitialCreate.cs" />
-    <Compile Include="Migrations\201808150302244_InitialCreate.Designer.cs">
-      <DependentUpon>201808150302244_InitialCreate.cs</DependentUpon>
+    <Compile Include="Migrations\201808170344066_InitialCreate.cs" />
+    <Compile Include="Migrations\201808170344066_InitialCreate.Designer.cs">
+      <DependentUpon>201808170344066_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\DemoConsoleDotnetEFContext.cs" />
@@ -71,8 +77,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201808150302244_InitialCreate.resx">
-      <DependentUpon>201808150302244_InitialCreate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201808170344066_InitialCreate.resx">
+      <DependentUpon>201808170344066_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

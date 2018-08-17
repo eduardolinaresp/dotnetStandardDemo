@@ -8,34 +8,34 @@ namespace DemoConsoleDotnetEF.Migrations
         public override void Up()
         {
             CreateTable(
-                "dbo.orders",
+                "APP.orders",
                 c => new
                     {
-                        OrderId = c.Int(nullable: false, identity: true),
+                        OrderId = c.Decimal(nullable: false, precision: 10, scale: 0, identity: true),
                         Fecha = c.DateTime(nullable: false),
                     })
                 .PrimaryKey(t => t.OrderId);
             
             CreateTable(
-                "dbo.orders_details",
+                "APP.orders_details",
                 c => new
                     {
-                        OrderDetailsId = c.Int(nullable: false, identity: true),
+                        OrderDetailsId = c.Decimal(nullable: false, precision: 10, scale: 0, identity: true),
                         ItemName = c.String(maxLength: 800),
-                        OrderId = c.Int(nullable: false),
+                        OrderId = c.Decimal(nullable: false, precision: 10, scale: 0),
                     })
                 .PrimaryKey(t => t.OrderDetailsId)
-                .ForeignKey("dbo.orders", t => t.OrderId, cascadeDelete: true)
+                .ForeignKey("APP.orders", t => t.OrderId, cascadeDelete: true)
                 .Index(t => t.OrderId);
             
         }
         
         public override void Down()
         {
-            DropForeignKey("dbo.orders_details", "OrderId", "dbo.orders");
-            DropIndex("dbo.orders_details", new[] { "OrderId" });
-            DropTable("dbo.orders_details");
-            DropTable("dbo.orders");
+            DropForeignKey("APP.orders_details", "OrderId", "APP.orders");
+            DropIndex("APP.orders_details", new[] { "OrderId" });
+            DropTable("APP.orders_details");
+            DropTable("APP.orders");
         }
     }
 }

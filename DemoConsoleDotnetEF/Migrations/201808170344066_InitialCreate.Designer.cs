@@ -13,7 +13,7 @@ namespace DemoConsoleDotnetEF.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201808150302244_InitialCreate"; }
+            get { return "201808170344066_InitialCreate"; }
         }
         
         string IMigrationMetadata.Source
