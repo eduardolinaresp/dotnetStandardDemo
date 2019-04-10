@@ -10,16 +10,19 @@
   
 ### 02-acceder a direcorio dotnetStandardDemo
 
-  cd dotnetStandardDemo
+  	cd dotnetStandardDemo
 
 ### 03-Listar branch del proyecto
 
-  git branch -a
+ 	 git branch -a
   
 ### 04-acceder a un branch.
 
-  git branch checkout [branch name]
+  	git branch checkout [branch name]
+	
+### 05-clonar un branch especifico.
 
+     git clone --single-branch --branch oracle https://github.com/eduardolinaresp/dotnetStandardDemo.git
        
   
   
