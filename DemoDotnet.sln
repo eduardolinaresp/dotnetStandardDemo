@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoConsoleDotnetEF", "Demo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppDotnetEFDemo", "WebAppDotnetEFDemo\WebAppDotnetEFDemo.csproj", "{6E37AAA8-2D02-433A-8BDC-C7D493E8B6C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsCampusApp", "WinFormsCampusApp\WinFormsCampusApp.csproj", "{11CEEF7A-BB1A-434B-977A-137296C9F88D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
