@@ -65,7 +65,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aes256CbcEncrypter.cs" />
     <Compile Include="Dto\DataTablesInfo.cs" />
     <Compile Include="Forms\Auth\FrmLogin.cs">
       <SubType>Form</SubType>
