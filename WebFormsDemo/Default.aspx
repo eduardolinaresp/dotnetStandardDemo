@@ -8,7 +8,7 @@
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="false" CellPadding="5">
 
         <Columns>
-            <asp:BoundField HeaderText="clienteId" Datafield="clienteId"   />
+            <asp:BoundField HeaderText="PollitoId" Datafield="PollitoId"   />
             <asp:BoundField HeaderText="Nombre" Datafield="Nombre"   />
 
         </Columns>
@@ -16,5 +16,10 @@
 
     </asp:GridView>
     
+    <div>
+        <asp:Button ID="Botón1" runat="server" Text="Word" OnClick="Botón1_Click" />
+        <asp:Button ID="Button2" runat="server" Text="Excel" OnClick="Button2_Click" />
+        
+    </div>
 
    </asp:Content>

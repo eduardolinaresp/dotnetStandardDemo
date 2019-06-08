@@ -27,7 +27,8 @@ namespace WebFormsDemo.Service
 
         }
 
-        public IEnumerable<Pollito> ObtenerPollitos()
+        //public IEnumerable<Pollito> ObtenerPollitos()
+        public List<Pollito> ObtenerPollitos()
         {
             List<Pollito> polloList = new List<Pollito>();
             int cantidad = 3;
@@ -37,12 +38,20 @@ namespace WebFormsDemo.Service
 
                 Pollito pollo = new Pollito();
 
-                pollo.PollitoId = i;
+                i = i + 1;
+                
+                //pollo.PollitoId =++ i;
 
-                pollo.Nombre = string.Format("Hola soy el pollo{0}",
-                                            ("_".Concat(i.ToString())));
+                pollo.PollitoId =i;
+
+                pollo.Nombre = string.Format("Hola soy el pollo_{0}",
+                                                (i.ToString()
+                                                )
+                                                );
 
                 polloList.Add(pollo);
+
+
             }
 
 
