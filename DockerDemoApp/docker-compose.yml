@@ -1,0 +1,13 @@
+version: '3'
+services:
+   appx:
+    build: ./appx
+    # command: bash  -c "dotnet ef database update"
+    #volumes:
+    #   - .:/myapp
+    ports:
+      - "80:80"    
+    networks:
+      default:
+      external:
+        name: nat
