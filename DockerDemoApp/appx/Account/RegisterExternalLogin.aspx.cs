@@ -4,9 +4,9 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Owin;
-using WebFormsIdentity01.Models;
+using DockerDemoApp.Models;
 
-namespace WebFormsIdentity01.Account
+namespace DockerDemoApp.Account
 {
     public partial class RegisterExternalLogin : System.Web.UI.Page
     {

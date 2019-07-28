@@ -7,9 +7,9 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.DataProtection;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using WebFormsIdentity01.Models;
+using DockerDemoApp.Models;
 
-namespace WebFormsIdentity01
+namespace DockerDemoApp
 {
     public partial class Startup {
 

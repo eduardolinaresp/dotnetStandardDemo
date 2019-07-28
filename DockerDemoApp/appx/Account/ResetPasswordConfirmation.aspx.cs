@@ -1,6 +1,6 @@
 ﻿using System.Web.UI;
 
-namespace WebFormsIdentity01.Account
+namespace DockerDemoApp.Account
 {
     public partial class ResetPasswordConfirmation : Page
     {

@@ -8,7 +8,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using Microsoft.AspNet.Identity;
 
-namespace WebFormsIdentity01
+namespace DockerDemoApp
 {
     public partial class SiteMaster : MasterPage
     {

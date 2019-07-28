@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Autenticación de dos factores" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TwoFactorAuthenticationSignIn.aspx.cs" Inherits="WebFormsIdentity01.Account.TwoFactorAuthenticationSignIn" %>
+﻿<%@ Page Title="Autenticación de dos factores" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TwoFactorAuthenticationSignIn.aspx.cs" Inherits="DockerDemoApp.Account.TwoFactorAuthenticationSignIn" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
         <h2><%: Title %>.</h2>

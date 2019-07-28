@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 
-namespace WebFormsIdentity01.Account
+namespace DockerDemoApp.Account
 {
     public partial class ManageLogins : System.Web.UI.Page
     {

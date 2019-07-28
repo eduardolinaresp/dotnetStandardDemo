@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(WebFormsIdentity01.Startup))]
-namespace WebFormsIdentity01
+[assembly: OwinStartupAttribute(typeof(DockerDemoApp.Startup))]
+namespace DockerDemoApp
 {
     public partial class Startup {
         public void Configuration(IAppBuilder app) {

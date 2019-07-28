@@ -8,9 +8,9 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Owin;
-using WebFormsIdentity01.Models;
+using DockerDemoApp.Models;
 
-namespace WebFormsIdentity01.Account
+namespace DockerDemoApp.Account
 {
     public partial class Manage : System.Web.UI.Page
     {

@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="WebFormsIdentity01.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="DockerDemoApp.Global" Language="C#" %>

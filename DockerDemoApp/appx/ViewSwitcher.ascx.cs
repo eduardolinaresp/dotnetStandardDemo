@@ -7,7 +7,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using Microsoft.AspNet.FriendlyUrls.Resolvers;
 
-namespace WebFormsIdentity01
+namespace DockerDemoApp
 {
     public partial class ViewSwitcher : System.Web.UI.UserControl
     {

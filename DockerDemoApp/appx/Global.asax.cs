@@ -7,7 +7,7 @@ using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
 
-namespace WebFormsIdentity01
+namespace DockerDemoApp
 {
     public class Global : HttpApplication
     {

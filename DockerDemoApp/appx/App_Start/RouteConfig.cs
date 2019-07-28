@@ -4,7 +4,7 @@ using System.Web;
 using System.Web.Routing;
 using Microsoft.AspNet.FriendlyUrls;
 
-namespace WebFormsIdentity01
+namespace DockerDemoApp
 {
     public static class RouteConfig
     {

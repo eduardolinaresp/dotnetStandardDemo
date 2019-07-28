@@ -6,9 +6,9 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
-using WebFormsIdentity01.Models;
+using DockerDemoApp.Models;
 
-namespace WebFormsIdentity01
+namespace DockerDemoApp
 {
     public class EmailService : IIdentityMessageService
     {

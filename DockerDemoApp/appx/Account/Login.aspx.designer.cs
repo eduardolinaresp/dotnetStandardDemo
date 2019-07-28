@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebFormsIdentity01.Account {
+namespace DockerDemoApp.Account {
     
     
     public partial class Login {
@@ -73,6 +73,6 @@ namespace WebFormsIdentity01.Account {
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::WebFormsIdentity01.Account.OpenAuthProviders OpenAuthLogin;
+        protected global::DockerDemoApp.Account.OpenAuthProviders OpenAuthLogin;
     }
 }

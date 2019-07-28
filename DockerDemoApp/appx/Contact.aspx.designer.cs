@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebFormsIdentity01
+namespace DockerDemoApp
 {
 
 

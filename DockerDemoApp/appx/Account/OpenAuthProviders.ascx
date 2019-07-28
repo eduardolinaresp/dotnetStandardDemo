@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="OpenAuthProviders.ascx.cs" Inherits="WebFormsIdentity01.Account.OpenAuthProviders" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="OpenAuthProviders.ascx.cs" Inherits="DockerDemoApp.Account.OpenAuthProviders" %>
 
 <div id="socialLoginList">
     <h4>Utilice otro servicio para iniciar sesión.</h4>

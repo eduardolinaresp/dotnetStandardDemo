@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebFormsIdentity01.Account {
+namespace DockerDemoApp.Account {
     
     
     public partial class Confirm {

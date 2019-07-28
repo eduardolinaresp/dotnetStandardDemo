@@ -6,9 +6,9 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using WebFormsIdentity01.Models;
+using DockerDemoApp.Models;
 
-namespace WebFormsIdentity01.Models
+namespace DockerDemoApp.Models
 {
     // Para agregar datos del usuario, agregue más propiedades a su clase de usuario. Visite https://go.microsoft.com/fwlink/?LinkID=317594 para obtener más información.
     public class ApplicationUser : IdentityUser
@@ -42,7 +42,7 @@ namespace WebFormsIdentity01.Models
 }
 
 #region Aplicaciones auxiliares
-namespace WebFormsIdentity01
+namespace DockerDemoApp
 {
     public static class IdentityHelper
     {

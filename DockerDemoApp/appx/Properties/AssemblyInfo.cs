@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // La información general sobre un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie los valores de estos atributos para modificar la información
 // asociada a un ensamblado.
-[assembly: AssemblyTitle("WebFormsIdentity01")]
+[assembly: AssemblyTitle("DockerDemoApp")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WebFormsIdentity01")]
+[assembly: AssemblyProduct("DockerDemoApp")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID es para el Id. typelib cuando este proyecto esté expuesto a COM
-[assembly: Guid("50ae7665-bdfc-40ea-a233-46182e8dc948")]
+[assembly: Guid("ed415dcc-50f5-43ee-a3ee-ace47befbe83")]
 
 // La información de versión de un ensamblado consta de los siguientes cuatro valores:
 //
