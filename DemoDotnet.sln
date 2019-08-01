@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerDemoApp", "DockerDemo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangFire.Mailer", "HangFire.Mailer\HangFire.Mailer.csproj", "{46207F61-BD05-4866-9D6A-2513F990C94F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsMSMQ", "WinFormsMSMQ\WinFormsMSMQ.csproj", "{A8986AD2-AE67-4841-ACA8-8CE416D9991D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{46207F61-BD05-4866-9D6A-2513F990C94F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46207F61-BD05-4866-9D6A-2513F990C94F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46207F61-BD05-4866-9D6A-2513F990C94F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8986AD2-AE67-4841-ACA8-8CE416D9991D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8986AD2-AE67-4841-ACA8-8CE416D9991D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8986AD2-AE67-4841-ACA8-8CE416D9991D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8986AD2-AE67-4841-ACA8-8CE416D9991D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
