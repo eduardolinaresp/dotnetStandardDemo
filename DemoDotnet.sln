@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.352
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoConsoleDotnetEF", "DemoConsoleDotnetEF\DemoConsoleDotnetEF.csproj", "{25BF2A56-A8FC-4899-A425-00D4EA98F643}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangFire.Mailer", "HangFire.Mailer\HangFire.Mailer.csproj", "{46207F61-BD05-4866-9D6A-2513F990C94F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsMSMQ", "WinFormsMSMQ\WinFormsMSMQ.csproj", "{A8986AD2-AE67-4841-ACA8-8CE416D9991D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapper", "AutoMapper\AutoMapper.csproj", "{35B3C6D4-630D-4A8C-8A36-BD44B2724A2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{A8986AD2-AE67-4841-ACA8-8CE416D9991D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8986AD2-AE67-4841-ACA8-8CE416D9991D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8986AD2-AE67-4841-ACA8-8CE416D9991D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35B3C6D4-630D-4A8C-8A36-BD44B2724A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35B3C6D4-630D-4A8C-8A36-BD44B2724A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35B3C6D4-630D-4A8C-8A36-BD44B2724A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35B3C6D4-630D-4A8C-8A36-BD44B2724A2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

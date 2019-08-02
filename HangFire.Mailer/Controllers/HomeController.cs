@@ -34,6 +34,7 @@ namespace HangFire.Mailer.Controllers
             return RedirectToAction("Index");
         }
 
+        [Queue("critical")]
         public static void NotifyNewComment(int commentId)
         {
             // Prepare Postal classes to work outside of ASP.NET request

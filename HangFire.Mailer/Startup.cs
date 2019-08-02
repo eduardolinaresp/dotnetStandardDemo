@@ -19,7 +19,15 @@ namespace HangFire.Mailer
 
 
             app.UseHangfireDashboard();
-            app.UseHangfireServer();
+
+
+            var options = new BackgroundJobServerOptions
+            {
+                Queues = new[] { "critical", "default" }
+            };
+
+
+            app.UseHangfireServer(options);
 
 
         }
