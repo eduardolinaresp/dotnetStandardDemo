@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "1ba5b669-d051-4f12-9bf8-d8d23aa6523f",
+		"name": "TEST-LOCAL-API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register-User",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"Email\": \"elinares@correo.cl\",\r\n  \"Password\": \"elinares@correo.cl\",\r\n  \"ConfirmPassword\": \"elinares@correo.cl\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:44368/api/Account/Register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "44368",
+					"path": [
+						"api",
+						"Account",
+						"Register"
+					]
+				},
+				"description": "post"
+			},
+			"response": []
+		},
+		{
+			"name": "SetToken",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "elinares@correo.cl",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "elinares@correo.cl",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:44368/token",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44368",
+					"path": [
+						"token"
+					]
+				},
+				"description": "token"
+			},
+			"response": []
+		},
+		{
+			"name": "GetValues",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "https://localhost:44368/"
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"id": "fc92c077-d256-4bbe-911e-c25710ad4797",
+			"key": "server",
+			"value": "[{\"key\":\"https://localhost:44368/\",\"value\":\"\",\"description\":\"\",\"type\":\"text\",\"sessionValue\":null,\"enabled\":true}]",
+			"type": "string"
+		}
+	]
+}
