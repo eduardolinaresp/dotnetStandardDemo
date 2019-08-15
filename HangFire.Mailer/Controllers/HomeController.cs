@@ -1,10 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Text;
 using System.Web.Hosting;
 using System.Web.Mvc;
 using Hangfire;
 using HangFire.Mailer.Models;
+using Newtonsoft.Json;
 using Postal;
 
 namespace HangFire.Mailer.Controllers
@@ -59,6 +65,59 @@ namespace HangFire.Mailer.Controllers
                 emailService.Send(email);
             }
         }
+
+        [HttpGet]
+        public ActionResult About()
+        {
+            
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult About(string mensaje)
+        {
+
+            BackgroundJob.Enqueue(() => CallApi());
+
+            return RedirectToAction("Index");
+        }
+
+        public static void CallApi()
+        {
+
+            string urlToken = ConfigurationManager.AppSettings["ApiUrl"];
+            string grant_type = ConfigurationManager.AppSettings["grant_type"];
+            string username = ConfigurationManager.AppSettings["username"];
+            string password = ConfigurationManager.AppSettings["password"];
+
+            var form = new Dictionary<string, string>
+                {
+                    {"grant_type", grant_type},
+                    {"client_id", username},
+                    {"client_secret", password},
+                };
+
+
+            using (var httpClient = new HttpClient())
+            {
+
+                httpClient.DefaultRequestHeaders.Clear();
+                httpClient.DefaultRequestHeaders.Add("cache-control", "no-cache");
+
+
+                //HttpResponseMessage tokenResponse = httpClient.PostAsync(url, new FormUrlEncodedContent(form));
+
+                var tokenResponse = httpClient.PostAsync(urlToken, new FormUrlEncodedContent(form)).Result;
+                
+                var jsonContent = tokenResponse.Content.ReadAsStringAsync().Result;
+
+                Token tok = JsonConvert.DeserializeObject<Token>(jsonContent);
+
+                tok.ToString();
+
+            }
+        }
+       
 
         protected override void Dispose(bool disposing)
         {

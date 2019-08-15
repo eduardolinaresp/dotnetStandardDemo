@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC5emailConfirmation", "MV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecoverActivationLink", "RecoverActivationLink\RecoverActivationLink.csproj", "{765D1924-C9E6-492F-B901-DBCB19CF5E87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiAutenticadaDotNetStandard", "ApiAutenticadaDotNetStandard\ApiAutenticadaDotNetStandard.csproj", "{B449356A-EACC-4BF3-A2DB-E474CFAE0A2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{765D1924-C9E6-492F-B901-DBCB19CF5E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{765D1924-C9E6-492F-B901-DBCB19CF5E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{765D1924-C9E6-492F-B901-DBCB19CF5E87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B449356A-EACC-4BF3-A2DB-E474CFAE0A2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B449356A-EACC-4BF3-A2DB-E474CFAE0A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B449356A-EACC-4BF3-A2DB-E474CFAE0A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B449356A-EACC-4BF3-A2DB-E474CFAE0A2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
