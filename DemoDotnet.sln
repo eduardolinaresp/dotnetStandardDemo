@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecoverActivationLink", "Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiAutenticadaDotNetStandard", "ApiAutenticadaDotNetStandard\ApiAutenticadaDotNetStandard.csproj", "{B449356A-EACC-4BF3-A2DB-E474CFAE0A2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinDemo", "OwinDemo\OwinDemo.csproj", "{43588271-CAC3-4095-BEF8-366E2F9A324C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{B449356A-EACC-4BF3-A2DB-E474CFAE0A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B449356A-EACC-4BF3-A2DB-E474CFAE0A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B449356A-EACC-4BF3-A2DB-E474CFAE0A2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43588271-CAC3-4095-BEF8-366E2F9A324C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43588271-CAC3-4095-BEF8-366E2F9A324C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43588271-CAC3-4095-BEF8-366E2F9A324C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43588271-CAC3-4095-BEF8-366E2F9A324C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
